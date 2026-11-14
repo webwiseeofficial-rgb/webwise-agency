@@ -30,3 +30,5 @@ t=(ar?"مرحباً WebWise،\nالاسم: ":"Bonjour WebWise,\nNom : ")+d.get("
 window.open("https://wa.me/"+WA+"?text="+encodeURIComponent(t),"_blank","noopener")};
 
 if("IntersectionObserver"in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12,rootMargin:"0px 0px -40px 0px"});document.querySelectorAll(".rv").forEach(function(e,i){e.style.setProperty("--d",(i%4)*.08+"s");io.observe(e)})}else{document.querySelectorAll(".rv").forEach(function(e){e.classList.add("in")})}
+
+;(function(){var t=document.getElementById("rtrack");if(!t)return;document.querySelectorAll("[data-rn]").forEach(function(b){b.onclick=function(){var rtl=document.documentElement.dir==="rtl",d=+b.dataset.rn*(rtl?-1:1);t.scrollBy({left:d*Math.min(380,t.clientWidth*.9),behavior:"smooth"})}})})();
