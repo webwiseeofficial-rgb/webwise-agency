@@ -120,7 +120,7 @@ html[lang=ar] .proj .sector{letter-spacing:0;text-transform:none}
 .proof{padding:0;margin-top:-52px;position:relative;z-index:2}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--line);border-radius:26px;box-shadow:var(--sh2);overflow:hidden}
 .stats>div{padding:26px 28px;display:flex;flex-direction:column;gap:4px;border-inline-start:1px solid var(--line)}.stats>div:first-child{border:0}
-.stats strong{font-family:var(--fr-head);font-size:1.7rem;color:var(--navy);line-height:1.2}
+.stats strong{font-family:inherit;font-weight:600;font-size:1.7rem;color:var(--navy);line-height:1.2}
 .stats span{color:var(--muted);font-size:.88rem;line-height:1.45}
 .case .btn.line{margin-top:4px;font-size:.9rem;padding:11px 22px}
 /* case studies */
